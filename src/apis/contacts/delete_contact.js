@@ -7,7 +7,7 @@ const deleteContact = async (id) => {
     let { new_apiUrl, apiKey } = await getConfig();
 
     // Constructing the API endpoint URL for creating contacts
-    let url = `${new_apiUrl}contacts ${id}`;
+    let url = `${new_apiUrl}contacts/${id}`;
 
     // Check if data is provided, is an object, and contains an email
     if (!id) {

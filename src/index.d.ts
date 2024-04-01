@@ -23,15 +23,15 @@ export namespace contact {
  * @returns {Promise<any>} - Promise that resolves on successful contact creation
  * @description This function creates a new contact in ActiveCampaign with the provided details.
  */
-  export function createContact(email: string, firstName: string, lastName: string, phone?: number): Promise<any>;
+  export function createContact(email: string, firstName?: string, lastName?: string, phone?: number): Promise<any>;
 
   /**
  * Deletes a contact from ActiveCampaign
  * @function
  * @param {number} contactId - ID of the contact to delete
- * @returns {Promise<{}>} - Promise that resolves to true on successful deletion, false otherwise
+ * @returns {Promise<any>} - Promise that resolves to true on successful deletion, false otherwise
  * @description This function deletes a contact from ActiveCampaign based on the provided contact ID.
  */
-  export function deleteContact(contactId: string): Promise<{}>; // Use Promise<void> if nothing is returned
+  export function deleteContact(contactId: number): Promise<any>; // Use Promise<void> if nothing is returned
 }
 
