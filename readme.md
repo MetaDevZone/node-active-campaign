@@ -10,7 +10,7 @@
 
 Install using NPM:
 
-    npm install node-active-campaign
+    npm i @meta-dev-zone/node-active-campaign
 
 If you don't use NPM, try this:
 
@@ -41,7 +41,7 @@ You can find Test examples in
 
 ```javascript
 //How to import package
-const activeCampaign = require("node-active-campaign");
+const activeCampaign = require("@meta-dev-zone/node-active-campaign");
 
 //set configuration
 
@@ -103,9 +103,10 @@ await activeCampaign.list.createList({
 
 ## Link to the package
 
-link to the package [node-active-campaign](https://www.npmjs.com/package/node-active-campaign)
+link to the package [node-active-campaign](https://www.npmjs.com/package/@meta-dev-zone/node-active-campaign)
 
 ## Author
+
 Meta Dev Zone – [meta-dev-zone](https://www.npmjs.com/~meta-dev-zone)
 
 ## Dependencies
