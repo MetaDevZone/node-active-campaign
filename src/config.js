@@ -10,7 +10,6 @@ function config(url, key) {
 
   apiUrl = url;
   apiKey = key;
-  console.log("Config after setting values", apiUrl, apiKey);
 }
 
 function getConfig() {
