@@ -48,14 +48,15 @@ export namespace contact {
 /**
  * add contact to list in ActiveCampaign
  * @function
- * @param {number} contact - ID of the contact to add to the list
- * @param {number} list - ID of the list to add the contact to
- * @param {boolean} status - Status of the contact in the list
+ * @param {object} data - Data object containing contact details
+ * @param {number} data.contact - ID of the contact to add to the list
+ * @param {number} data.list - ID of the list to add the contact to
+ * @param {boolean} data.status - Status of the contact in the list
  * @returns {Promise<any>} - Promise that resolves on successful contact addition to the list
  * @description This function adds a contact to a list in ActiveCampaign with the provided details.
  */
 
-  export function addContactToList(contact: number, list: number, status: boolean): Promise<any>;
+  export function addContactToList(data:{contact: number, list: number, status: boolean}): Promise<any>;
   
 
 
@@ -90,7 +91,7 @@ export namespace tag {
  * @description This function adds a tag to a contact in ActiveCampaign.
  */
 
-  export function createContactTags(contact: string, tag: string): Promise<any>;
+  export function createContactTag(contact: string, tag: string): Promise<any>;
 
 
 

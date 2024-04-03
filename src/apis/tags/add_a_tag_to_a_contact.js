@@ -1,7 +1,7 @@
 var getConfig = require("../../config").getConfig;
 var axios = require("axios");
 
-const createContactTags = async (data) => {
+const createContactTag = async (data) => {
   try {
     // Fetching configuration data
     let { new_apiUrl, apiKey } = await getConfig();
@@ -38,4 +38,4 @@ const createContactTags = async (data) => {
   }
 };
 
-module.exports = createContactTags;
+module.exports = createContactTag;
