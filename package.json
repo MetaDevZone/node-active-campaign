@@ -1,5 +1,5 @@
 {
-  "name": "node-active-campaign",
+  "name": "@meta-dev-zone/node-active-campaign",
   "version": "0.1.0",
   "description": "node package for active campaign api integration",
   "types": "src/index.d.ts",
@@ -25,7 +25,8 @@
     "lists",
     "tags",
     "webhooks",
-    "transactions"
+    "transactions",
+    "active-campaign-node"
   ],
   "author": "Meta Dev Zone",
   "license": "ISC",
