@@ -1,6 +1,6 @@
 {
   "name": "@meta-dev-zone/node-active-campaign",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "node package for active campaign api integration",
   "types": "src/index.d.ts",
   "main": "src/index.js",
