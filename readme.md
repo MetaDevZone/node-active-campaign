@@ -21,6 +21,9 @@ If you don't use NPM, try this:
 
 You have ActiveCampaign API Access with **URL** and **Key**
 
+## Examples
+You can find example code in the `example` folder of this package.
+
 ## Available Functions
 
 | Collection  | Functions                                            |
